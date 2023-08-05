@@ -1,0 +1,222 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.ranking-badges {
+  display: flex;
+  justify-content: space-between;
+  width: 825px; /* Adjust this width based on your layout */
+  margin: 10px auto;
+}
+
+.ranking-badge {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-image: linear-gradient(to right, #60495A, #2F2235);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+.ranking-badge badge2{
+   background-image: linear-gradient(to right, #696eff, #f8acff);
+   margin-bottom: -40px;
+}
+#badgegap2{
+  margin-top: 70px;
+}
+
+#profilegap2{
+  margin-bottom: 150px ;
+}
+
+
+
+
+
+
+
+.profiles {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Allow profiles to wrap to the next line */
+}
+
+
+
+/*<div class="insta-icon" id="icon">
+        <img src="images/instaicon.png" alt="insta icon 1" style="width:500%">
+      </div>*/
+      
+
+.profile {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 200px;
+  transition: background-color 1s ease, order 0.5s ease;
+  animation-duration: 0.5s;
+}
+
+.insta-icon{
+  width: 10px;
+  height: 10px;
+  margin-right: 150px;
+
+}
+
+.insta-icon img{
+  border-radius: 50%;
+}
+
+
+#icon{
+  position: absolute; /* This makes the image position absolute */
+            top: 20px; /* Adjust the 'top' value to desired position from the top */
+            left: 370px; /* Adjust the 'left' value to desired position from the left */
+
+  
+
+}
+
+
+
+
+
+.profile h2 {
+  color: #555;
+ 
+}
+
+
+
+@keyframes swap-animation {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-swap {
+  animation-name: swap-animation;
+}
+
+
+
+.vote-button {
+  background-color: #7D1538;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.vote-button:hover {
+  background-color: #BC2C1A;
+}
+
+.vote-count {
+  margin-top: 15px;
+  font-size: 20px;
+  color: #007BFF;
+}
+
+.timer {
+  margin-top: 10px;
+  color: #777;
+}
+
+.profile-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.profile-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+#namelink1{
+  margin-top: 30px;
+  margin-right: 10px;
+  margin-bottom: 50px;
+}
+
+#namelink2{
+  margin-top: 30px;
+  margin-right: 10px;
+  margin-bottom: 50px;
+}
+
+
+#namelink3{
+  margin-top: 30px;
+  margin-right: 10px;
+  margin-bottom: 50px;
+}
+
+#namelink4{
+  margin-top: 30px;
+  margin-right: 10px;
+  margin-bottom: 50px;
+}
+
+
+#namelink5{
+  margin-top: 30px;
+  margin-right: 10px;
+  margin-bottom: 50px;
+}
+
+#namelink6{
+  margin-top: 30px;
+  margin-right: 10px;
+  margin-bottom: 50px;
+}
+
+
+#namelink7{
+  margin-top: 30px;
+  margin-right: 10px;
+  margin-bottom: 50px;
+}
+
+#namelink8{
+  margin-top: 30px;
+  margin-right: 10px;
+  margin-bottom: 50px;
+}
+
+

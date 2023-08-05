@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stylish Voting System</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <style>
+    a:link, a:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid #6D46D9;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 30px;
+  margin-right: 80px;
+}
+
+a:hover, a:active {
+  background-color: #6D46D9;
+  color: white;
+}
+</style>
+
+
+</head>
+<body>
+
+
+  <h1>SBU Sec-'B' (2022-25)</h1>
+  <div class="ranking-badges">
+    <div class="ranking-badge" id="badge1">1st</div>
+    <div class="ranking-badge" id="badge2">2nd</div>
+    <div class="ranking-badge" id="badge3">3rd</div>
+    <div class="ranking-badge" id="badge4">4th</div>
+  </div>
+
+
+<div class="profiles">
+    <div class="profile" id="profile1">
+      <div class="profile-image">
+        <img src="images/profile1.jpg" alt="Profile 1">
+      </div>
+
+
+      <a id="namelink2" href="https://www.instagram.com/tox.ics._/" target="_blank">Shiva Mahto </a>
+      
+    
+      <div class="vote-box">
+        <button class="vote-button" onclick="vote(1)">Vote</button>
+        <span class="vote-count">0</span>
+        <div class="timer" id="timer_profile1"></div>
+      </div>
+    </div>
+
+
+
+
+    <div class="profile" id="profile3">
+      <div class="profile-image">
+        <img src="images/profile3.jpg" alt="Profile 3">
+      </div>
+      <a id="namelink3" href="https://www.instagram.com/rehan_faisal___/" target="_blank">Rehan Faisal</a>
+      
+    
+      <div class="vote-box">
+        <button class="vote-button" onclick="vote(3)">Vote</button>
+        <span class="vote-count">0</span>
+        <div class="timer" id="timer_profile3"></div>
+      </div>
+    </div>
+
+
+    <div class="profile" id="profile4">
+      <div class="profile-image">
+        <img src="images/profile4.jpg" alt="Profile 4">
+      </div>
+      
+      <a id="namelink4" href="https://www.instagram.com/_pradeep_.yaduvanshi/" target="_blank">Pradeep Kumar</a>
+      <div class="vote-box">
+        <button class="vote-button" onclick="vote(4)">Vote</button>
+        <span class="vote-count">0</span>
+        <div class="timer" id="timer_profile4"></div>
+      </div>
+    </div>
+
+
+    <div class="profile" id="profile5">
+      <div class="profile-image">
+        <img src="images/profile5.jpg" alt="Profile 5">
+      </div>
+      <a id="namelink5" href="https://www.instagram.com/meeran_0_0_7/" target="_blank">Meeran</a>
+      
+   
+      <div class="vote-box">
+        <button class="vote-button" onclick="vote(5)">Vote</button>
+        <span class="vote-count">0</span>
+        <div class="timer" id="timer_profile5"></div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+  <div class="ranking-badges" id="badgegap2">
+    <div class="ranking-badge" id="badge1">5th</div>
+    <div class="ranking-badge" id="badge2">6th</div>
+    <div class="ranking-badge" id="badge3">7th</div>
+    <div class="ranking-badge" id="badge4">8th</div>
+  </div>
+
+
+<div class="profiles" id="profilegap2">
+    <div class="profile" id="profile6">
+      <div class="profile-image">
+        <img src="images/profile6.jpeg" alt="Profile 6">
+      </div>
+
+
+      <a id="namelink6" href="https://www.instagram.com/dragon__umar/" target="_blank">Dragon Umar</a>
+      
+    
+      <div class="vote-box">
+        <button class="vote-button" onclick="vote(6)">Vote</button>
+        <span class="vote-count">0</span>
+        <div class="timer" id="timer_profile6"></div>
+      </div>
+    </div>
+
+
+
+
+    <div class="profile" id="profile7">
+      <div class="profile-image">
+        <img src="images/profile7.jpg" alt="Profile 7">
+      </div>
+      <a id="namelink3" href="https://www.instagram.com/i_.anish_" target="_blank">Anish Kumar</a>
+      
+    
+      <div class="vote-box">
+        <button class="vote-button" onclick="vote(7)">Vote</button>
+        <span class="vote-count">0</span>
+        <div class="timer" id="timer_profile7"></div>
+      </div>
+    </div>
+
+
+
+    <div class="profile" id="profile2">
+      <div class="profile-image">
+        <img src="images/profile2.jpg" alt="Profile 2">
+      </div>
+      <a id="namelink1" href="https://www.instagram.com/_mimi_cha.n_" target="_blank">Shreyanshi Paul</a>
+      
+   
+      <div class="vote-box">
+        <button class="vote-button" onclick="vote(2)">Vote</button>
+        <span class="vote-count">0</span>
+        <div class="timer" id="timer_profile2"></div>
+      </div>
+    </div>
+
+
+    <div class="profile" id="profile8">
+      <div class="profile-image">
+        <img src="images/profile8.jpg" alt="Profile 8">
+      </div>
+      
+      <a id="namelink4" href="https://www.instagram.com/__dubeyji_____" target="_blank">Avinaw Dubey</a>
+      <div class="vote-box">
+        <button class="vote-button" onclick="vote(8)">Vote</button>
+        <span class="vote-count">0</span>
+        <div class="timer" id="timer_profile8"></div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
